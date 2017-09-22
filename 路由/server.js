@@ -10,6 +10,6 @@ function start(route){
         response.end();
     }
     http.createServer(onRequest).listen(8888);
-    console.log('********服务已启动*******');
+    console.log('********服务已启动********');
 }
 exports.start = start;
