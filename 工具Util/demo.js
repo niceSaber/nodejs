@@ -14,7 +14,10 @@ Base.prototype.showName = () => {console.log(this.name);}
 function Sub(){
     this.name='da';
 }
+//这个方法是使Sub继承Base在原型中定义的函数Sub();
 util.inherits(Sub,Base);
+
+
 var base = new Base();
 base.sayHello();
 base.showName();
