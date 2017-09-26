@@ -1,3 +1,6 @@
+/**
+ * util的inherits（继承）
+ */
 var util = require('util');
 function Base (){
     this.name = 'xiao';
